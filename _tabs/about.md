@@ -4,7 +4,6 @@ icon: fas fa-info-circle
 order: 4
 ---
 
-# Aboud me
 
 Hi!, I'm Aisha, a Cybersecurity Analyst with a passion for network security, threat detection, and ethical hacking.
 
