@@ -18,7 +18,8 @@
 
 source "https://rubygems.org"
 
-gem "jekyll-theme-chirpy", "~> 7.3"
+gem "jekyll", "~> 4.3"
+gem "jekyll-theme-chirpy", "~> 7.3", group: :jekyll_plugins
 
 gem "html-proofer", "~> 5.0", group: :test
 
