@@ -5,9 +5,6 @@ order: 4
 ---
 
 
-Hi!, I'm Aisha, a Cybersecurity Analyst with a passion for network security, threat detection, and ethical hacking.
+Hi!, I'm Aisha, a Cybersecurity Analyst. Here you'll find write-ups for CTF challenges and notes.
 
-This site is my personal space to document and share my learning journey in cybersecurity. You'll find write-ups for CTF challenges and notes.
-
-Feel free to explore my content—hopefully it serves as a helpful reference or learning resource.
 
