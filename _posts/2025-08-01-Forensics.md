@@ -1,13 +1,14 @@
 ---
-title: "Forensics Write-up"
+title: "TryHackMe: Forensics Write-up"
 date: 2025-08-01 12:11:00
 categories: [TryHackMe, Challenges]
-tag: [volatility 3]
+tag: [volatility 3, RAM Analysis]
 ---
-[Tryhackme Room](https://tryhackme.com/room/forensics)
+
 
 
 ## Introduction:
+**Challenge Link:** [Forensics](https://tryhackme.com/room/forensics)
 
 The challenge is to analyze the memory dump of a compromised system.
 
@@ -366,7 +367,7 @@ $ strings pid.1820.dmp | grep '209.190'
 | `windows.envars`            | Shows process environment variables.         |
 ```
 
-### Reference:
+## Reference:
 
 - [volatility cheat sheet](https://blog.onfvp.com/post/volatility-cheatsheet/)
 - [Process Injection](https://attack.mitre.org/techniques/T1055/)
