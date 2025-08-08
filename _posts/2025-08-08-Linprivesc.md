@@ -9,7 +9,6 @@ tag: [Privilege Escalation]
 ## Introduction
 
 **Challenge Link:** 
-
 [Linux Privilege Escalation](https://tryhackme.com/room/linprivesc)
 
 - **Note:** This writeup includes external research and personal explanations.
