@@ -3,6 +3,7 @@ title: "TryHackMe: Linux Privilege Escalation Writeup"
 date: 2025-08-08 12:11:00
 categories: [TryHackMe, Jr Penetration Tester]
 tag: [Privilege Escalation]
+author: Aisha
 ---
 
 

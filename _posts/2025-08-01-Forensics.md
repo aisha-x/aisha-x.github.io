@@ -3,6 +3,7 @@ title: "TryHackMe: Forensics Write-up"
 date: 2025-08-01 12:11:00
 categories: [TryHackMe, Challenges]
 tag: [volatility 3, RAM Analysis]
+author: Aisha
 ---
 
 
