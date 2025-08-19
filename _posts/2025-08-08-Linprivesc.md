@@ -9,10 +9,10 @@ author: Aisha
 
 ## Introduction
 
-**Challenge Link:** 
+**Room Link:** 
 [Linux Privilege Escalation](https://tryhackme.com/room/linprivesc)
 
-- **Note:** This writeup includes external research and personal explanations.
+**Note:** This writeup includes external research and personal explanations.
 
 **Linux privilege escalation** refers to the unauthorized act of gaining elevated permissions rather than legitimate, controlled privilege use. We will cover common privilege escalation techniques.
 
