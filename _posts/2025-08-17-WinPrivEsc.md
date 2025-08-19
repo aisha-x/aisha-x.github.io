@@ -1,5 +1,5 @@
 ---
-title: "Windows Privilege Escalation Writeup"
+title: "TryHackMe: Windows Privilege Escalation Writeup"
 date: 2025-08-17 12:11:00
 categories: [TryHackMe, Jr Penetration Tester]
 tag: [Privilege Escalation]
