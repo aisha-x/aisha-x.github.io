@@ -78,7 +78,7 @@ However, while THM-Utils provides excellent summaries, it doesn't show detailed 
 
 Again, this is optional, but if you want to use it, create two folders for `sec-field-filter` and `sys-field-filter` module under this location  `C:\Users\Administrator\Documents\WindowsPowerShell\Modules\` . Since there is no internet connection on the provided machine, you will have to copy the script and paste it into Windows PowerShell ISE, and save it as `.psm1`.
 
-![Alt](/images/Atomic-1/upload-module.png)
+![Alt](/images/Atomic-1/upload-module.webp)
 
 Then import the modules.
 
@@ -146,7 +146,7 @@ SERVICE_NAME: aurora-agent
 
 In my case, the service wasn’t running. I solved this by changing the path pointing to the licence from `agent-config.yml` file, and I also changed the machine time to Dec 18, 2023. Then started the service from **services.msc.**
 
-![Alt](/images/Atomic-1/lic.png)
+![Alt](/images/Atomic-1/lic.webp)
 
 ## Task-1: Execute, Investigate, Detect
 
@@ -240,7 +240,7 @@ PS C:\Users\Administrator>
 
 This test simulates the User Account Control (UAC) prompt that appears when a program requires elevated privileges. This type of prompt can be used to collect credentials
 
-![Alt](/images/Atomic-1/UAC.png)
+![Alt](/images/Atomic-1/UAC.webp)
 
 ```powershell
 PS C:\Program Files\Aurora-Agent> sys-processCreation -FilterMessage "src.ps1"
@@ -511,7 +511,7 @@ AccessRights   : FILE_WRITE_ATTRIBUTES
 
 This file contains the PowerShell history commands I have run so far.
 
-![Alt](/images/Atomic-1/history-cmd.png)
+![Alt](/images/Atomic-1/history-cmd.webp)
 
 ### Test T0006-2: SystemFile modification for exfiltration
 
@@ -583,5 +583,5 @@ AccessesMask   : 2792
 AccessRights   : FILE_READ_ATTRIBUTES | FILE_EXECUTE
 ```
 
-![Alt](/images/Atomic-1/hosts.png)
+![Alt](/images/Atomic-1/hosts.webp)
 

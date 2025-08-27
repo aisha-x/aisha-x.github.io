@@ -84,7 +84,7 @@ Get-ChildItem -Path "C:\Users\" -Recurse -Include *.xml,*.doc,*.xls -Exclude "$e
 
 We want to update the script to include all “bak” files
 
-![Alt](/images/Atomic-2/bak.png)
+![Alt](/images/Atomic-2/bak.webp)
 
 Run the test and check Sysmon logs
 
@@ -484,7 +484,7 @@ S:\Company certificate.docx                               FILE_WRITE_ATTRIBUTES
 
 When checking the drive, all files have been modified to `.thm-jhn`extension
 
-![Alt](/images/Atomic-2/Task3-thm-jhn.png)
+![Alt](/images/Atomic-2/Task3-thm-jhn.webp)
 
 ### Test T0003-4: **Planting reverse shell command in the registry**
 
