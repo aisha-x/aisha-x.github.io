@@ -25,7 +25,7 @@ This room enhances Purple Team exercises by moving beyond basic/default approach
 - Analyze directories, registries, and event logs for detection opportunities
 - Experimental testing to overcome lack of available malicious source code
 
-**Technique emulation :**
+**Technique Emulation :**
 
 - **Task-1:** Execution, Discovery, Collection ([T1056.002](https://attack.mitre.org/techniques/T1056/002/), [T1059](https://attack.mitre.org/techniques/T1059/), [T1082](https://attack.mitre.org/techniques/T1082/))
 - **Task-2:**  Lateral Movement ([T1091](https://attack.mitre.org/techniques/T1091/))
@@ -42,7 +42,7 @@ This room enhances Purple Team exercises by moving beyond basic/default approach
 - PowerShell
 - [sys-field-filter](https://github.com/aisha-x/Windows-Event-Parser/tree/main/sys-field-filter), [sec-field-filter module](https://github.com/aisha-x/Windows-Event-Parser/tree/main/sec-field-filter) → This is optional; it assists in parsing Windows events.
 
-### **THM Usage:**
+### THM Usage:
 
 TryHackMe provided a wonderful module that summarizes the logs, saving significant time during investigations. I've uploaded the module [here](https://github.com/aisha-x/THM/tree/main/Rooms/SOC%20Level%202/Threat-Emulation/THM-Utils) for reference.
 
@@ -150,7 +150,7 @@ In my case, the service wasn’t running. I solved this by changing the path poi
 
 ## Task-1: Execute, Investigate, Detect
 
-### **Attacker Simulation:**
+### Attacker Simulation:
 
 The exercise simulates an attacker who:
 
@@ -159,7 +159,7 @@ The exercise simulates an attacker who:
 - **Executes:** Runs commands on the system, including failed execution attempts to test detection capabilities.
 - The goal is to evaluate artifacts generated from system discovery, credential prompts, and command execution activities.
 
-### Test T0004-1: **Initial Enumeration Emulation**
+### Test T0004-1: Initial Enumeration Emulation
 
 Run the test 
 
@@ -262,7 +262,7 @@ ParentProcessId   : 4032
 ParentCommandLine : -
 ```
 
-### Test T0004-3: **Failed command emulation**
+### Test T0004-3: Failed command emulation
 
 Test the detection capabilities of failed command execution.
 
@@ -316,7 +316,7 @@ ParentCommandLine : "powershell.exe" & {Start-Process powershell.exe -ArgumentLi
 
 ## Task-2: Universal Suspicious Share
 
-### **Attacker Simulation:**
+### Attacker Simulation:
 
 The exercise simulates an attacker who:
 
@@ -324,7 +324,7 @@ The exercise simulates an attacker who:
 - **Manipulates Files:** Modifies, copies, or creates files on shared drives to establish persistence, exfiltrate data, or move laterally.
 - The goal is to mimic common ransomware or worm behaviors that leverage shared resources to propagate across a network.
 
-### Test T0005-1: **Universal Suspicious Share**
+### Test T0005-1: Universal Suspicious Share
 
 To test the manipulation of files, we first need to save the hash value of the target file
 
@@ -442,7 +442,7 @@ Compared to the first hash value, it is clear that the file has been tampered wi
 
 ## Task-3: Dump and Go
 
-### **Attacker Simulation:**
+### Attacker Simulation:
 
 The exercise simulates an attacker who:
 

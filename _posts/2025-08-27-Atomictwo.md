@@ -21,7 +21,7 @@ This room is a direct sequel to its first part ([Atomic Bird Goes Purple #1](htt
 
 ## Task-1: In-Between - Discover and Hide
 
-### **Attacker Simulation:**
+### Attacker Simulation:
 
 The exercise simulates an attacker who:
 
@@ -29,7 +29,7 @@ The exercise simulates an attacker who:
 - **Abuses & Hides:** Uses those stolen credentials to create new **typosquatting** or **masquerading** local user accounts (e.g., creating a user named **`Admin`** instead of **`Administrator`**). This is inspired by technique [**T1078.003**](https://attack.mitre.org/techniques/T1078/003/).
 - The goal of these accounts is to act as **decoys** or backdoors for persistent access.
 
-### Test T0002-1: **Search cleartext data**
+### Test T0002-1: Search cleartext data
 
 Run the test
 
@@ -146,7 +146,7 @@ Secret: L1LAFLHQ5peGsjh7Pee8wHFY1SBQHe85A1HZhVrK47Yf6cqmH3n8
 
 ```
 
-### Test T0002-2: **Create clone/decoy account**
+### Test T0002-2: Create clone/decoy account
 
 This test simulates an attacker masquerading as a legitimate local account
 
@@ -237,7 +237,7 @@ SAMAccountName   : -
 
 ## Task-2: Manipulate, Deface, Persistence
 
-### **Attacker Simulation:**
+### Attacker Simulation:
 
 The exercise simulates an attacker who has gained initial access and is now working to:
 
@@ -245,16 +245,9 @@ The exercise simulates an attacker who has gained initial access and is now work
 - **Change System Behavior (Manipulate):** Alter system settings to their advantage.
 - **Deface:** Modify internal content to prove compromise or cause disruption.
 
-### **Techniques Being Simulated:**
 
-Your tasks will be inspired by these four key techniques:
 
-- **T1112 - Modify Registry:** Changing Windows Registry values to reconfigure system settings or hide malicious activity.
-- **T1543.003 - Create or Modify System Process: Windows Service:** Creating a new Windows Service to act as a persistent backdoor that runs automatically.
-- **T1012 - Query Registry:** Searching the registry to find specific information, such as configuration data or stored credentials, to aid in the attack.
-- **TT1491 - Internal Defacement:** Modifying files or web pages on internal network systems to display unauthorized messages (e.g., a hacker's handle), proving the system was compromised.
-
-### Test-1: **T0003-1 Internal service creation:**
+### Test-1: T0003-1 Internal service creation:
 
 This test simulates creating a new Windows Service to act as a persistent backdoor that runs automatically. technique reference [**T1543.003**](https://attack.mitre.org/techniques/T1543/003/)
 
@@ -358,7 +351,7 @@ SERVICE_NAME: thm-registered-service
         SERVICE_START_NAME : LocalSystem
 ```
 
-### Test-2: **Defacement with registry**
+### Test-2: Defacement with registry
 
 This test simulates changing Windows Registry values to reconfigure system settings or hide malicious activity. Technique reference [T1112](https://attack.mitre.org/techniques/T1112/)
 
@@ -419,7 +412,7 @@ Detials      : THM{THM_Offline_Index_Emulation}
 
 **TargetObject:** The **`LegalNoticeText`** registry key controls the text that appears in the **legal notice caption** text box. This is the message that appears on the logon screen before a user enters their credentials. The value is being set to a THM flag.
 
-### Test-3: T0003-3 **File changes like a ransom**
+### Test-3: T0003-3 File changes like a ransom
 
 This test simulates a ransomware attack where the attacker encrypts data on target systems to interrupt availability to system and network resources. Technique reference [T1486](https://attack.mitre.org/techniques/T1486/) 
 
@@ -486,7 +479,7 @@ When checking the drive, all files have been modified to `.thm-jhn`extension
 
 ![Alt](/images/Atomic-2/Task3-thm-jhn.webp)
 
-### Test T0003-4: **Planting reverse shell command in the registry**
+### Test T0003-4: Planting reverse shell command in the registry
 
 This test simulates adversaries modifying the registry to hide configuration information, for persistence, or as a way to store a command for execution. Technique reference [T1112](https://attack.mitre.org/techniques/T1112/) 
 
