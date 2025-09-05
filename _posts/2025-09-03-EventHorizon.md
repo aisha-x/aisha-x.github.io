@@ -1,6 +1,6 @@
 ---
 title: "TryHackMe: Event Horizon Write-up"
-date: 2025-06-30 14:00:00
+date: 2025-09-03 14:00:00
 categories: [TryHackMe, Challenges]
 tag: [pcap analysis, Covenant C2]
 author: Aisha
