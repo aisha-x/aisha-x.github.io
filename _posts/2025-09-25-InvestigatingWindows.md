@@ -294,7 +294,7 @@ Upon inspecting the IP of the associated host name “google.com”, the result 
 
 ![Alt](/images/WinInvestigate/iplookup.webp)
 
-This technique is called **Hosts file tampering,** modifying `C:\Windows\System32\drivers\etc\hosts` to map [`google.com`](http://google.com) → `76.32.97.132` forces the *local* resolver to return that IP for applications that use the OS resolver (browsers, `ping`, etc.). This is a local override. Here is an IP lookup for Google.com hostname
+This technique is called **Hosts file tampering,** modifying `C:\Windows\System32\drivers\etc\hosts` to map `google.com` → `76.32.97.132` forces the *local* resolver to return that IP for applications that use the OS resolver (browsers, `ping`, etc.). This is a local override. Here is an IP lookup for Google.com hostname
 
 ```powershell
 PS C:\TMP> nslookup.exe google.com
