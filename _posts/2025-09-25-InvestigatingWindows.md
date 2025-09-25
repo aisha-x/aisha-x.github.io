@@ -338,7 +338,7 @@ Name:    syn-076-032-097-132.res.spectrum.com
 Address:  76.32.97.132          
 ```
 
- `nslookup` performs DNS queries directly to the configured DNS server and **bypasses** the OS hosts-file resolution. That’s why `nslookup google.com` shows Google’s real IPs while the hosts file maps it to a different IP — both can be true simultaneously.
+ `nslookup` performs DNS queries directly to the configured DNS server and **bypasses** the OS hosts-file resolution. That’s why `nslookup google.com` shows Google’s real IPs while the hosts file maps it to a different IP.
 
 For the last question, w**hat was the last port the attacker opened?** Check the firewall inbound added rules for any suspicious local ports 
 
