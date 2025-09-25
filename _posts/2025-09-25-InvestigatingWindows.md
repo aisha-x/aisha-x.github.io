@@ -1,6 +1,6 @@
 ---
 title: "TryHackMe: Investigating Windows Write-up"
-date: 2025-09-26 14:00:00
+date: 2025-09-25 14:00:00
 categories: [TryHackMe, Challenges]
 tag: [Windows Forensics, Incident Response]
 author: Aisha
