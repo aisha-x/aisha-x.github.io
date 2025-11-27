@@ -1,5 +1,5 @@
 ---
-title: "CyberXbytes CTF 2025 Write-up"
+title: "CyberXbytes CTF 2025"
 date: 2025-11-16 14:00:00
 categories: [CTF]
 tag: [Reverse Engineer]
