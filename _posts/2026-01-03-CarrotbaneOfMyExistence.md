@@ -11,7 +11,7 @@ author: Aisha
 
 ## Introduction
 
-**Room URL:**[Side Quest3: Carrotbane of My Existence](https://tryhackme.com/room/sq3-aoc2025-bk3vvbcgiT)
+**Room URL:** [Side Quest3: Carrotbane of My Existence](https://tryhackme.com/room/sq3-aoc2025-bk3vvbcgiT)
 
 This room is part of the **TryHackMe Advent of Cyber 2025** series and focuses on abusing AI-powered services through logic flaws, prompt injection, and misconfiguration.
 
